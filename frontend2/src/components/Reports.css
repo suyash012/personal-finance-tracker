@@ -1,0 +1,47 @@
+.reports-container {
+  padding: 2rem;
+}
+
+.reports-container h2 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.suggestions-section, .reports-section {
+  margin-bottom: 2rem;
+}
+
+.suggestions-section h3, .reports-section h3 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.suggestions-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.reports-table {
+  width: 100%;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  border-collapse: collapse;
+}
+
+.reports-table th, .reports-table td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.reports-table thead tr {
+  background-color: #e5e7eb; /* gray-200 */
+}
+
+.reports-table tbody tr {
+  border-top: 1px solid #e5e7eb;
+} 

@@ -1,0 +1,43 @@
+.register-container {
+  padding: 2rem;
+  max-width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.register-container h2 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  margin-bottom: 1rem;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.register-container .form-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db; /* cool-gray-300 */
+  border-radius: 0.25rem;
+}
+
+.register-container .error-message {
+  color: #ef4444; /* red-500 */
+}
+
+.register-container .success-message {
+  color: #16a34a; /* green-600 */
+}
+
+.register-container .submit-button {
+  width: 100%;
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+} 

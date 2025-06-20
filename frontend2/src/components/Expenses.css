@@ -1,0 +1,142 @@
+.expenses-container {
+  padding: 2rem;
+}
+
+.expenses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.expenses-header h2 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: 700;
+}
+
+.add-expense-btn {
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Filter Bar */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filter-bar select, .filter-bar input {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
+
+.filter-bar .filter-btn {
+  background-color: #d1d5db; /* gray-300 */
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Expense Form */
+.expense-form {
+  background-color: #f9fafb; /* gray-50 */
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.expense-form .form-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.expense-form select, .expense-form input {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db; /* cool-gray-300 */
+  border-radius: 0.25rem;
+}
+
+.expense-form .input-amount {
+  width: 8rem;
+}
+
+.expense-form .input-notes {
+  width: 100%;
+}
+
+.expense-form .button-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.expense-form .save-btn {
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.expense-form .cancel-btn {
+  background-color: #d1d5db; /* gray-300 */
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Expenses Table */
+.expenses-table {
+  width: 100%;
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.expenses-table th, .expenses-table td {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.expenses-table thead tr {
+  background-color: #e5e7eb; /* gray-200 */
+}
+
+.expenses-table tbody tr {
+  border-top: 1px solid #e5e7eb;
+}
+
+.expenses-table .actions-cell {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.expenses-table .edit-btn {
+  background-color: #facc15; /* yellow-400 */
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.expenses-table .delete-btn {
+  background-color: #ef4444; /* red-500 */
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+} 
