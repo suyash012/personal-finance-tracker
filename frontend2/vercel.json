@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://personal-finance-tracker-1-yhkk.onrender.com"
+    }
+  ]
+} 
